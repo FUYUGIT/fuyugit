@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap 
+  PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" 
+  "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="image">
+
+	<typeAlias type="com.tianyou.image.entity.Image" alias="Image" />
+
+	<resultMap id="imageResult" class="Image">
+		<result column="id" property="id" />
+	</resultMap>
+</sqlMap>
