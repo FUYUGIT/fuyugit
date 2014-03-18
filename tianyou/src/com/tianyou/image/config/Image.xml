@@ -6,8 +6,15 @@
 <sqlMap namespace="image">
 
 	<typeAlias type="com.tianyou.image.entity.Image" alias="Image" />
+	<typeAlias type="com.tianyou.image.view.VImage" alias="vImage" />
 
 	<resultMap id="imageResult" class="Image">
-		<result column="id" property="id" />
+		<result column="image_id" property="imageId" />
+		<result column="url" property="url" />
+		<result column="desp" property="desp" />
+		<result column="user_id" property="userId" />
+	</resultMap>
+	
+	<resultMap id="vImageResult" class="vImage" extends="imageResult">
 	</resultMap>
 </sqlMap>
