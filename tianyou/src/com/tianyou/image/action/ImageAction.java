@@ -1,5 +1,7 @@
 package com.tianyou.image.action;
 
-public class ImageAction {
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ImageAction extends ActionSupport {
 
 }

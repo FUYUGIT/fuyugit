@@ -3,21 +3,13 @@
 <html>
 	<head>
 		<title>iKengHome</title>
-
-		<link href="epp/css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="epp/js/jquery-1.7.2.js"></script>
 	</head>
 	<body class="thrColFixHdr">
 		<div id="container">
-			<div id="header">
-			</div>
-			<div id="mainContent">
-				<img src="epp/img/back_img.jpg" />
-			</div>
-			<br class="clearfloat" />
-			<div id="footer">
-				<p id="clickBtn">
-					<a href="#">&gt;&gt;&gt;&gt;&gt;iKeng&gt;&gt;&gt;&gt;&gt;</a>
-				</p>
+			<div id="mainContent" align="center">
+				Hello World!
 			</div>
 		</div>
 	</body>
